@@ -10,15 +10,12 @@ public class Employee{
     private boolean onLeave;
     private double hourlyWage;
     private double unpaidHours;
-    private double getHoursWorked;
-    private int setHoursWorked;
+    private int getHoursWorked;
 
     public Employee(String fullname, int yearOfBirth, double hourlyWage, int setHoursWorked, double getHoursWorked){
         this.fullname = fullname;
         this.yearOfBirth = yearOfBirth;
         this.hourlyWage = hourlyWage;
-        this.setHoursWorked = setHoursWorked;
-        this.getHoursWorked = getHoursWorked;
         onLeave = false;
         unpaidHours = 0.0;
     }
@@ -35,30 +32,43 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        if (EmployeeAge> 16;
-            then system.out.print("can drive");
-        else System.out.print("must wait 16-EmployeeAge years");
-        
-        // to be completed
+        if (age >= 16) {
+            System.out.print("can drive");
+            return true;
+        }
+        else {
+            System.out.print("must wait 16-EmployeeAge years");
+            return false;
+        }
+    
     }
 
     /*
      * Returns the net pay for the outstanding unpaid hours
      */
     private double calculatePay(){
-        totalSalary = hourlyWage + unpaidHours;
-        taxes = 30% of; totalSalary;
-        calculatePay = totalSalary - taxes;
+       // totalSalary = hourlyWage + unpaidHours;
+    //    taxes = 30% of; totalSalary;
+       // calculatePay = totalSalary - taxes;
         // to be completed
+        return calculatePay();
     }
 
     /*
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        calculatePay of Employee;
+        //calculatePay of Employee;
         System.out.print("Employee has received a wire transfer of (calculatePay) CAD");
-        return value; unpaidHours = 0;
+        return; //unpaidHours = 0;
         // to be completed
+    }
+    
+    public int getHoursWorked(){
+    return getHoursWorked;
+    }
+    
+    public void setHoursWorked(int amount);
+    setHoursWorked = amount;
     }
 }
