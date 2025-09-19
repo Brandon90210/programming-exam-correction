@@ -13,7 +13,7 @@ public class Employee{
     private double getHoursWorked;
     private int setHoursWorked;
 
-    public Employee(String fullname, int yearOfBirth, double hourlyWage, int setHoursWorked, getHoursWorked){
+    public Employee(String fullname, int yearOfBirth, double hourlyWage, int setHoursWorked, double getHoursWorked){
         this.fullname = fullname;
         this.yearOfBirth = yearOfBirth;
         this.hourlyWage = hourlyWage;
@@ -35,9 +35,9 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        if EmployeeAge≥ 16;
-            then system.print "can drive";
-        else system.print "must wait 16-EmployeeAge years"
+        if (EmployeeAge> 16;
+            then system.out.print("can drive");
+        else System.out.print("must wait 16-EmployeeAge years");
         
         // to be completed
     }
@@ -47,7 +47,7 @@ public class Employee{
      */
     private double calculatePay(){
         totalSalary = hourlyWage + unpaidHours;
-        taxes = 30% of totalSalary;
+        taxes = 30% of; totalSalary;
         calculatePay = totalSalary - taxes;
         // to be completed
     }
@@ -57,8 +57,8 @@ public class Employee{
      */
     public void paySalary(){
         calculatePay of Employee;
-        system.print "Employee has received a wire transfer of (calculatePay) CAD"
-        return value unpaidHours = 0
+        System.out.print("Employee has received a wire transfer of (calculatePay) CAD");
+        return value; unpaidHours = 0;
         // to be completed
     }
 }
